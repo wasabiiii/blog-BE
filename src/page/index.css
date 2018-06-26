@@ -1,0 +1,81 @@
+/*登录页面*/
+.login-panel{
+    margin-top: 25%;
+}
+
+.navbar{
+    height:50px;
+    /*padding: 10px 0;*/
+    background-color: white;
+}
+
+.navbar ul {
+    list-style:none; /* 去掉ul前面的符号 */
+}
+.navbar ul li {
+    float:left;
+}
+.navbar ul li a, div.navbar ul li a:visited {
+    display: block; /* 此元素将显示为块级元素，此元素前后会带有换行符 */
+    line-height: 1.35em; /* 行高 */
+    padding: 4px 20px; /* 内部填充的距离 */
+    text-decoration: none; /* 不显示超链接下划线 */
+    white-space: nowrap; /* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
+}
+
+.navbar ul li a:hover {
+    text-decoration: none; /* 不显示超链接下划线 */
+}
+
+.navbar ul li a:active {
+    /*background-color: #465c71; !* 背景色 *!*/
+    /*color: #cfdbe6; !* 文字颜色 *!*/
+    text-decoration: none; /* 不显示超链接下划线 */
+}
+
+
+
+/*主页*/
+.blog-panel{
+    background: #fff;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    box-sizing: border-box;
+}
+.blog-item{
+    display: flex;
+    align-items:baseline;
+}
+.abstract{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.title{
+    color: #337ab7;
+    font-size: 22px;
+    cursor: pointer;
+}
+button a{
+    color: white;
+}
+
+.div-center{
+    display: flex;
+    justify-content: center;
+}
+
+/*编辑、发布文章*/
+.btn-submit{
+	margin-top: 15px; 
+}
+
+.page-title{
+	border-left: 6px solid #33a5da;
+	font-size: 22px;
+	font-weight: bolder;
+	padding-left: 12px;
+    margin-bottom: 14px;
+}
